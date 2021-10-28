@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Zen Kaku Gothic Antique, sans-serif;
+  background-color: rgb(49 , 57 , 60);
+  text-align: center;
+  color: white;
+}
+
+header {
+  margin-top: 100px;
+}
+
+.msg {
+  font-style: italic;
+}
+
+.input {
+  padding: 4px;
+}
+
+.list {
+  margin: auto;
+  width: 300px;
+}
+
+.criar-tarefa {
+  margin: 20px;
+}
+
+.list li {
+  text-align: left;
+  padding-bottom: 4px;
+  padding-left: 4px;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.button {
+  padding: 5px;
+  border: 0;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.azul {
+  background-color: rgb(33 , 118 , 255);
+  border-radius: 10px;
+  padding: 8px;
+  color: white;
+}
+
+.vermelho {
+  background-color: red;
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+}
+
+.smallButton {
+  padding: 13px;
+  border-radius: 50%;
+}
+
+.iconeX {
+  background-image: url('images/x.png');
+  background-size: 10px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.cima , .baixo {
+  background-color: rgb(247 , 152 , 36);
+}
+
+.cima {
+  background-image: url('images/arrow.png');
+  background-size: 12px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.baixo {
+  background-image: url('images/arrow.png');
+  background-size: 12px;
+  background-repeat: no-repeat;
+  background-position: center;
+  transform: rotate(180deg);
+}
+
+.textButton {
+  border-radius: 10px;
+  padding: 8px;
+}
+
+.verde {
+  background-color: green;
+  color: white;
+}
